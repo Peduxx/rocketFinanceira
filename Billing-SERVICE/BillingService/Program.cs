@@ -19,6 +19,7 @@ using Quartz.Impl;
 using Quartz;
 using BillingService.JobConfig;
 using Quartz.Spi;
+using BillingService.Infrastructure.Interfaces;
 
 namespace ConsoleApp
 {
@@ -30,11 +31,14 @@ namespace ConsoleApp
 
             var messageProcessingService = serviceProvider.GetService<IMessageProcessingService>();
 
-            messageProcessingService.StartConsuming();
+            messageProcessingService.StartConsuming("billing-queue");
+
+            messageProcessingService.StartConsuming("notification-queue");
 
             Console.WriteLine("Pressione qualquer tecla para sair...");
             Console.ReadKey();
         }
+
 
         static IServiceProvider ConfigureServices()
         {
@@ -57,52 +61,18 @@ namespace ConsoleApp
             services.AddScoped<IMessageProcessingService, MessageProcessingService>();
 
             services.AddTransient<PaymentJob>();
+            services.AddTransient<NotificationJob>();
 
-            services.AddDbContextFactory<DataContext>(options =>
-                options.UseSqlServer("Server=localhost,1433;Database=user-database;User ID=sa;Password=1q2w3e4r@#$;TrustServerCertificate=true"));
-
-            services.AddTransient<DataContext>(provider =>
-                provider.GetRequiredService<IDbContextFactory<DataContext>>().CreateDbContext());
+            services.AddScoped(provider =>
+            {
+                var optionsBuilder = new DbContextOptionsBuilder<DataContext>();
+                optionsBuilder.UseSqlServer("Server=localhost,1433;Database=user-database;User ID=sa;Password=1q2w3e4r@#$;TrustServerCertificate=true");
+                return new DataContext(optionsBuilder.Options);
+            });
 
             services.AddSingleton<RabbitMQOptions>();
 
             return services.BuildServiceProvider();
-        }
-    }
-
-    public interface IMessageProcessingService
-    {
-        void StartConsuming();
-    }
-
-    public class MessageProcessingService : IMessageProcessingService
-    {
-        private readonly RabbitMQConsumer _rabbitMQConsumer;
-        private readonly IBillingService _billingService;
-
-        public MessageProcessingService(RabbitMQOptions rabbitMQOptions, IBillingService billingService)
-        {
-            _rabbitMQConsumer = new RabbitMQConsumer(rabbitMQOptions.Hostname, rabbitMQOptions.Port, rabbitMQOptions.Username, rabbitMQOptions.Password, "billing-queue");
-            _billingService = billingService;
-        }
-
-        public void StartConsuming()
-        {
-            _rabbitMQConsumer.StartConsuming(ProcessMessage);
-        }
-
-        private async void ProcessMessage(string message)
-        {
-            Console.WriteLine($"Received message: {message}");
-
-            var subscription = JsonConvert.DeserializeObject<Subscription>(message);
-            var processedSubscription = ProcessSubscription(subscription);
-            await _billingService.ProcessBilling(processedSubscription);
-        }
-
-        private Subscription ProcessSubscription(Subscription subscription)
-        {
-            return new Subscription(subscription.Id, subscription.IdUser, subscription.BillingDate, subscription.Status);
         }
     }
 }

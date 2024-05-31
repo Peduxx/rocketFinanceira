@@ -98,3 +98,4 @@ C:\Users\claud\Desktop\RocketFinanceira\Billing-SERVICE\BillingService\bin\Debug
 C:\Users\claud\Desktop\RocketFinanceira\Billing-SERVICE\BillingService\bin\Debug\net8.0\tr-TR\Hangfire.Core.resources.dll
 C:\Users\claud\Desktop\RocketFinanceira\Billing-SERVICE\BillingService\bin\Debug\net8.0\zh-TW\Hangfire.Core.resources.dll
 C:\Users\claud\Desktop\RocketFinanceira\Billing-SERVICE\BillingService\bin\Debug\net8.0\zh\Hangfire.Core.resources.dll
+C:\Users\claud\Desktop\RocketFinanceira\Billing-SERVICE\BillingService\obj\Debug\net8.0\BillingService.sourcelink.json

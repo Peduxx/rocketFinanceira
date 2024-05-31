@@ -1,6 +1,10 @@
-﻿namespace BillingService.Services.Interfaces
+﻿using BillingService.Entities;
+
+namespace BillingService.Services.Interfaces
 {
-    public class INotificationService
+    public interface INotificationService
     {
+        Task ProcessNotification(Subscription subscription);
+        Task ScheduleNextNotification(Subscription subscription);
     }
 }

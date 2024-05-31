@@ -1,26 +1,39 @@
-﻿using System.Net;
+﻿using System;
+using System.Net;
 using System.Net.Mail;
+using System.Threading.Tasks;
 
 namespace BillingService.Infrastructure.Email
 {
     public class EmailService : IEmailService
     {
-        private readonly string _senderEmail = "claudivan15014_matos@hotmail.com";
-        private readonly string _senderPassword = "FPSforever123";
+        private readonly SmtpClient _smtpClient;
 
-        public async Task SendEmail(string recipientEmail, string subject, string body)
+        public EmailService()
         {
-            using var message = new MailMessage(_senderEmail, recipientEmail);
-            message.Subject = subject;
-            message.Body = body;
-            message.IsBodyHtml = true;
+            // Configurações do servidor SMTP
+            _smtpClient = new SmtpClient
+            {
+                Host = "smtp.office365.com",
+                Port = 587,
+                Credentials = new NetworkCredential("seuEmail", "suaSenha"),
+                EnableSsl = true
+            };
+        }
 
-            using var smtpClient = new SmtpClient("smtp.mail.outlook.com");
-            smtpClient.Port = 587;
-            smtpClient.Credentials = new NetworkCredential(_senderEmail, _senderPassword);
-            smtpClient.EnableSsl = true;
+        public async Task SendEmailAsync(string toEmail, string subject, string body)
+        {
+            var message = new MailMessage
+            {
+                From = new MailAddress("seuEmail"),
+                Subject = subject,
+                Body = body,
+                IsBodyHtml = true
+            };
 
-            smtpClient.Send(message);
+            message.To.Add(toEmail);
+
+            await _smtpClient.SendMailAsync(message);
         }
     }
 }
