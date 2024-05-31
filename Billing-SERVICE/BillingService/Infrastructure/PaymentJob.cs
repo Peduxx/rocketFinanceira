@@ -45,10 +45,8 @@ namespace BillingService.Infrastructure
             }
             catch (Exception ex)
             {
-                // Registre informações sobre a exceção, como mensagens de log
                 Console.WriteLine($"An error occurred while executing PaymentJob: {ex.Message}");
 
-                // Se desejar, lance a exceção novamente para que o Quartz.NET possa tratá-la adequadamente
                 throw;
             }
         }

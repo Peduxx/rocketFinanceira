@@ -1,7 +1,5 @@
 ﻿using Quartz;
 using Quartz.Spi;
-using System;
-using Microsoft.Extensions.DependencyInjection;
 
 namespace BillingService.JobConfig
 {
