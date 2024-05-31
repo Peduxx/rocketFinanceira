@@ -58,5 +58,5 @@ Update-Database
 
 dotnet run
 
-Com isso você poderá executar os testes manuais que quiser pelo Swagger.
+Com isso você poderá executar os testes manuais pelo Swagger.
 
