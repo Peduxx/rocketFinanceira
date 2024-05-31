@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "V3GX2qfBZ+hKM7Rfw+YuqyAwJ0cbBPdYfJQv+3VgTslWpyUdHRT/Eb8okTDA6Pn01ZNj3TQ3MseyQbMNiRmBWg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\User-API\\Application\\Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\claud\\.nuget\\packages\\fluentvalidation\\11.9.1\\fluentvalidation.11.9.1.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

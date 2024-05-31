@@ -1,0 +1,11 @@
+﻿global using Application.Abstractions;
+global using Application.User.Commands;
+global using Application.User.Commands.Handlers;
+global using Application.User.Commands.Validators;
+global using Domain.Aggregates;
+global using Domain.Entities;
+global using Domain.Ports;
+global using FluentAssertions;
+global using Moq;
+global using System.Text;
+global using Xunit;

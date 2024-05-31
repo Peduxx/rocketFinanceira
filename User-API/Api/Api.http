@@ -1,0 +1,6 @@
+@Api_HostAddress = http://localhost:5053/User
+
+POST {{Api_HostAddress}}/SignUp
+Accept: application/json
+
+###

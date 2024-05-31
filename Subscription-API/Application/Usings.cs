@@ -1,0 +1,10 @@
+﻿global using SubscriptionEntity = Domain.Entities.Subscription;
+global using MediatR;
+global using Shared.Utils;
+global using Application.Subscription.Commands.Validators;
+global using Domain.Ports;
+global using Microsoft.Extensions.DependencyInjection;
+global using System.Reflection;
+global using FluentValidation;
+global using Application.Abstractions;
+global using Application.Services.Interfaces;

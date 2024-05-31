@@ -1,0 +1,873 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9AA30C4D-A80D-4F14-8FA8-88EC551CD187}|Application\\Application.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\application\\subscription\\commands\\handlers\\createsubscriptioncommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AA30C4D-A80D-4F14-8FA8-88EC551CD187}|Application\\Application.csproj|solutionrelative:application\\subscription\\commands\\handlers\\createsubscriptioncommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AA30C4D-A80D-4F14-8FA8-88EC551CD187}|Application\\Application.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\application\\services\\billingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AA30C4D-A80D-4F14-8FA8-88EC551CD187}|Application\\Application.csproj|solutionrelative:application\\services\\billingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D374B326-78A4-427D-A33F-8A03FDF9F032}|Api\\Api.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D374B326-78A4-427D-A33F-8A03FDF9F032}|Api\\Api.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC09C92-D388-435B-B97D-148CFE8580B0}|Infrastructure\\Infrastructure.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\infrastructure\\messaging\\connectionprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAC09C92-D388-435B-B97D-148CFE8580B0}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\messaging\\connectionprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC09C92-D388-435B-B97D-148CFE8580B0}|Infrastructure\\Infrastructure.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\infrastructure\\data\\repositories\\subscriptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAC09C92-D388-435B-B97D-148CFE8580B0}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\repositories\\subscriptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC09C92-D388-435B-B97D-148CFE8580B0}|Infrastructure\\Infrastructure.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\infrastructure\\messaging\\rabbitmqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAC09C92-D388-435B-B97D-148CFE8580B0}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\messaging\\rabbitmqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B6EC25B-DF9A-4692-A2E5-999F82F67F89}|Domain\\Domain.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\domain\\entities\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B6EC25B-DF9A-4692-A2E5-999F82F67F89}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24BF491-714A-4DEC-8649-F23CFCBA12A5}|Tests\\Tests.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\tests\\validators\\createsubscriptioncommandvalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24BF491-714A-4DEC-8649-F23CFCBA12A5}|Tests\\Tests.csproj|solutionrelative:tests\\validators\\createsubscriptioncommandvalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AA30C4D-A80D-4F14-8FA8-88EC551CD187}|Application\\Application.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\application\\abstractions\\irabbitmqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AA30C4D-A80D-4F14-8FA8-88EC551CD187}|Application\\Application.csproj|solutionrelative:application\\abstractions\\irabbitmqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC09C92-D388-435B-B97D-148CFE8580B0}|Infrastructure\\Infrastructure.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\infrastructure\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAC09C92-D388-435B-B97D-148CFE8580B0}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24BF491-714A-4DEC-8649-F23CFCBA12A5}|Tests\\Tests.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\tests\\handlers\\createsubscriptioncommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24BF491-714A-4DEC-8649-F23CFCBA12A5}|Tests\\Tests.csproj|solutionrelative:tests\\handlers\\createsubscriptioncommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24BF491-714A-4DEC-8649-F23CFCBA12A5}|Tests\\Tests.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\tests\\handlers\\cancelsubscriptioncommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24BF491-714A-4DEC-8649-F23CFCBA12A5}|Tests\\Tests.csproj|solutionrelative:tests\\handlers\\cancelsubscriptioncommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24BF491-714A-4DEC-8649-F23CFCBA12A5}|Tests\\Tests.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\tests\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24BF491-714A-4DEC-8649-F23CFCBA12A5}|Tests\\Tests.csproj|solutionrelative:tests\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24BF491-714A-4DEC-8649-F23CFCBA12A5}|Tests\\Tests.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\tests\\validators\\cancelsubscriptioncommandvalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24BF491-714A-4DEC-8649-F23CFCBA12A5}|Tests\\Tests.csproj|solutionrelative:tests\\validators\\cancelsubscriptioncommandvalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AA30C4D-A80D-4F14-8FA8-88EC551CD187}|Application\\Application.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\application\\subscription\\commands\\handlers\\cancelsubscriptioncommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AA30C4D-A80D-4F14-8FA8-88EC551CD187}|Application\\Application.csproj|solutionrelative:application\\subscription\\commands\\handlers\\cancelsubscriptioncommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AA30C4D-A80D-4F14-8FA8-88EC551CD187}|Application\\Application.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\application\\subscription\\commands\\validators\\createsubscriptioncommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AA30C4D-A80D-4F14-8FA8-88EC551CD187}|Application\\Application.csproj|solutionrelative:application\\subscription\\commands\\validators\\createsubscriptioncommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AA30C4D-A80D-4F14-8FA8-88EC551CD187}|Application\\Application.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\application\\subscription\\commands\\validators\\cancelsubscriptioncommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AA30C4D-A80D-4F14-8FA8-88EC551CD187}|Application\\Application.csproj|solutionrelative:application\\subscription\\commands\\validators\\cancelsubscriptioncommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24BF491-714A-4DEC-8649-F23CFCBA12A5}|Tests\\Tests.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\tests\\tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D24BF491-714A-4DEC-8649-F23CFCBA12A5}|Tests\\Tests.csproj|solutionrelative:tests\\tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B6EC25B-DF9A-4692-A2E5-999F82F67F89}|Domain\\Domain.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\domain\\ports\\isubscriptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B6EC25B-DF9A-4692-A2E5-999F82F67F89}|Domain\\Domain.csproj|solutionrelative:domain\\ports\\isubscriptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AA30C4D-A80D-4F14-8FA8-88EC551CD187}|Application\\Application.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\application\\subscription\\queries\\validators\\getsubscriptionqueryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AA30C4D-A80D-4F14-8FA8-88EC551CD187}|Application\\Application.csproj|solutionrelative:application\\subscription\\queries\\validators\\getsubscriptionqueryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AA30C4D-A80D-4F14-8FA8-88EC551CD187}|Application\\Application.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\application\\subscription\\queries\\getsubscriptionquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AA30C4D-A80D-4F14-8FA8-88EC551CD187}|Application\\Application.csproj|solutionrelative:application\\subscription\\queries\\getsubscriptionquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AA30C4D-A80D-4F14-8FA8-88EC551CD187}|Application\\Application.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\application\\services\\interfaces\\ibillingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AA30C4D-A80D-4F14-8FA8-88EC551CD187}|Application\\Application.csproj|solutionrelative:application\\services\\interfaces\\ibillingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC09C92-D388-435B-B97D-148CFE8580B0}|Infrastructure\\Infrastructure.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\infrastructure\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAC09C92-D388-435B-B97D-148CFE8580B0}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AA30C4D-A80D-4F14-8FA8-88EC551CD187}|Application\\Application.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\application\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AA30C4D-A80D-4F14-8FA8-88EC551CD187}|Application\\Application.csproj|solutionrelative:application\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AA30C4D-A80D-4F14-8FA8-88EC551CD187}|Application\\Application.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\application\\subscription\\commands\\createsubscriptioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AA30C4D-A80D-4F14-8FA8-88EC551CD187}|Application\\Application.csproj|solutionrelative:application\\subscription\\commands\\createsubscriptioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D374B326-78A4-427D-A33F-8A03FDF9F032}|Api\\Api.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D374B326-78A4-427D-A33F-8A03FDF9F032}|Api\\Api.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC09C92-D388-435B-B97D-148CFE8580B0}|Infrastructure\\Infrastructure.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\infrastructure\\messaging\\rabbitmqoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAC09C92-D388-435B-B97D-148CFE8580B0}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\messaging\\rabbitmqoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC09C92-D388-435B-B97D-148CFE8580B0}|Infrastructure\\Infrastructure.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\infrastructure\\messaging\\interfaces\\iconnectionprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAC09C92-D388-435B-B97D-148CFE8580B0}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\messaging\\interfaces\\iconnectionprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B6EC25B-DF9A-4692-A2E5-999F82F67F89}|Domain\\Domain.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\domain\\entities\\enums\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B6EC25B-DF9A-4692-A2E5-999F82F67F89}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\enums\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B6EC25B-DF9A-4692-A2E5-999F82F67F89}|Domain\\Domain.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\domain\\entities\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B6EC25B-DF9A-4692-A2E5-999F82F67F89}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AA30C4D-A80D-4F14-8FA8-88EC551CD187}|Application\\Application.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\application\\services\\subscriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AA30C4D-A80D-4F14-8FA8-88EC551CD187}|Application\\Application.csproj|solutionrelative:application\\services\\subscriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AA30C4D-A80D-4F14-8FA8-88EC551CD187}|Application\\Application.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\application\\services\\interfaces\\isubscriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AA30C4D-A80D-4F14-8FA8-88EC551CD187}|Application\\Application.csproj|solutionrelative:application\\services\\interfaces\\isubscriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC09C92-D388-435B-B97D-148CFE8580B0}|Infrastructure\\Infrastructure.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\infrastructure\\crosscutting\\ioc\\nativeinjector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAC09C92-D388-435B-B97D-148CFE8580B0}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\crosscutting\\ioc\\nativeinjector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D374B326-78A4-427D-A33F-8A03FDF9F032}|Api\\Api.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D374B326-78A4-427D-A33F-8A03FDF9F032}|Api\\Api.csproj|solutionrelative:api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D374B326-78A4-427D-A33F-8A03FDF9F032}|Api\\Api.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\api\\controllers\\subscriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D374B326-78A4-427D-A33F-8A03FDF9F032}|Api\\Api.csproj|solutionrelative:api\\controllers\\subscriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D374B326-78A4-427D-A33F-8A03FDF9F032}|Api\\Api.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\api\\optionssetup\\databaseoptionssetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D374B326-78A4-427D-A33F-8A03FDF9F032}|Api\\Api.csproj|solutionrelative:api\\optionssetup\\databaseoptionssetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D374B326-78A4-427D-A33F-8A03FDF9F032}|Api\\Api.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\api\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D374B326-78A4-427D-A33F-8A03FDF9F032}|Api\\Api.csproj|solutionrelative:api\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D374B326-78A4-427D-A33F-8A03FDF9F032}|Api\\Api.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\api\\optionssetup\\jwtoptionssetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D374B326-78A4-427D-A33F-8A03FDF9F032}|Api\\Api.csproj|solutionrelative:api\\optionssetup\\jwtoptionssetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AA30C4D-A80D-4F14-8FA8-88EC551CD187}|Application\\Application.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\application\\subscription\\queries\\handlers\\getsubscriptionqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AA30C4D-A80D-4F14-8FA8-88EC551CD187}|Application\\Application.csproj|solutionrelative:application\\subscription\\queries\\handlers\\getsubscriptionqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AA30C4D-A80D-4F14-8FA8-88EC551CD187}|Application\\Application.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\application\\subscription\\commands\\cancelsubscriptioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AA30C4D-A80D-4F14-8FA8-88EC551CD187}|Application\\Application.csproj|solutionrelative:application\\subscription\\commands\\cancelsubscriptioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC09C92-D388-435B-B97D-148CFE8580B0}|Infrastructure\\Infrastructure.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\infrastructure\\data\\entityconfigurations\\usersubscriptionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAC09C92-D388-435B-B97D-148CFE8580B0}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\entityconfigurations\\usersubscriptionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Infrastructure\\Migrations\\20240529123117_Subscription-Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Migrations\\20240529123117_Subscription-Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AA30C4D-A80D-4F14-8FA8-88EC551CD187}|Application\\Application.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\application\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AA30C4D-A80D-4F14-8FA8-88EC551CD187}|Application\\Application.csproj|solutionrelative:application\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D374B326-78A4-427D-A33F-8A03FDF9F032}|Api\\Api.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D374B326-78A4-427D-A33F-8A03FDF9F032}|Api\\Api.csproj|solutionrelative:api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D374B326-78A4-427D-A33F-8A03FDF9F032}|Api\\Api.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\api\\optionssetup\\swaggeroptionssetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D374B326-78A4-427D-A33F-8A03FDF9F032}|Api\\Api.csproj|solutionrelative:api\\optionssetup\\swaggeroptionssetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D374B326-78A4-427D-A33F-8A03FDF9F032}|Api\\Api.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\api\\optionssetup\\jwtbeareroptionssetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D374B326-78A4-427D-A33F-8A03FDF9F032}|Api\\Api.csproj|solutionrelative:api\\optionssetup\\jwtbeareroptionssetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D374B326-78A4-427D-A33F-8A03FDF9F032}|Api\\Api.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\api\\optionssetup\\dependencyinjectionoptionssetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D374B326-78A4-427D-A33F-8A03FDF9F032}|Api\\Api.csproj|solutionrelative:api\\optionssetup\\dependencyinjectionoptionssetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC09C92-D388-435B-B97D-148CFE8580B0}|Infrastructure\\Infrastructure.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\infrastructure\\authentication\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAC09C92-D388-435B-B97D-148CFE8580B0}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\authentication\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC09C92-D388-435B-B97D-148CFE8580B0}|Infrastructure\\Infrastructure.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BAC09C92-D388-435B-B97D-148CFE8580B0}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B6EC25B-DF9A-4692-A2E5-999F82F67F89}|Domain\\Domain.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\domain\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B6EC25B-DF9A-4692-A2E5-999F82F67F89}|Domain\\Domain.csproj|solutionrelative:domain\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D374B326-78A4-427D-A33F-8A03FDF9F032}|Api\\Api.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\api\\api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{D374B326-78A4-427D-A33F-8A03FDF9F032}|Api\\Api.csproj|solutionrelative:api\\api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B2D2A8-048F-4893-B4E4-D0F20C474A95}|Shared\\Shared.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\shared\\utils\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B2D2A8-048F-4893-B4E4-D0F20C474A95}|Shared\\Shared.csproj|solutionrelative:shared\\utils\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC09C92-D388-435B-B97D-148CFE8580B0}|Infrastructure\\Infrastructure.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\subscription-api\\infrastructure\\migrations\\20240529123917_subscription-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAC09C92-D388-435B-B97D-148CFE8580B0}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20240529123917_subscription-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Infrastructure\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Infrastructure\\Data\\DataContext.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\DataContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T12:18:44.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SubscriptionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Infrastructure\\Data\\Repositories\\SubscriptionRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Repositories\\SubscriptionRepository.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Infrastructure\\Data\\Repositories\\SubscriptionRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Repositories\\SubscriptionRepository.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwBgAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T12:13:36.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RabbitMQService.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Infrastructure\\Messaging\\RabbitMQService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Messaging\\RabbitMQService.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Infrastructure\\Messaging\\RabbitMQService.cs",
+              "RelativeToolTip": "Infrastructure\\Messaging\\RabbitMQService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T14:04:30.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IRabbitMQService.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Application\\Abstractions\\IRabbitMQService.cs",
+              "RelativeDocumentMoniker": "Application\\Abstractions\\IRabbitMQService.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Application\\Abstractions\\IRabbitMQService.cs",
+              "RelativeToolTip": "Application\\Abstractions\\IRabbitMQService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T14:02:57.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateSubscriptionCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Application\\Subscription\\Commands\\Handlers\\CreateSubscriptionCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Subscription\\Commands\\Handlers\\CreateSubscriptionCommandHandler.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Application\\Subscription\\Commands\\Handlers\\CreateSubscriptionCommandHandler.cs",
+              "RelativeToolTip": "Application\\Subscription\\Commands\\Handlers\\CreateSubscriptionCommandHandler.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAADgvy0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T18:51:47.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Subscription.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Domain\\Entities\\Subscription.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Subscription.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Domain\\Entities\\Subscription.cs",
+              "RelativeToolTip": "Domain\\Entities\\Subscription.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T17:17:45.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BillingService.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Application\\Services\\BillingService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\BillingService.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Application\\Services\\BillingService.cs",
+              "RelativeToolTip": "Application\\Services\\BillingService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T14:15:57.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConnectionProvider.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Infrastructure\\Messaging\\ConnectionProvider.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Messaging\\ConnectionProvider.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Infrastructure\\Messaging\\ConnectionProvider.cs",
+              "RelativeToolTip": "Infrastructure\\Messaging\\ConnectionProvider.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAiwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T14:47:21.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Api\\Program.cs",
+              "RelativeDocumentMoniker": "Api\\Program.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Api\\Program.cs",
+              "RelativeToolTip": "Api\\Program.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAiwD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T16:59:20.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateSubscriptionCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Application\\Subscription\\Commands\\Validators\\CreateSubscriptionCommandValidator.cs",
+              "RelativeDocumentMoniker": "Application\\Subscription\\Commands\\Validators\\CreateSubscriptionCommandValidator.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Application\\Subscription\\Commands\\Validators\\CreateSubscriptionCommandValidator.cs",
+              "RelativeToolTip": "Application\\Subscription\\Commands\\Validators\\CreateSubscriptionCommandValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T19:06:29.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateSubscriptionCommandValidatorTests.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Tests\\Validators\\CreateSubscriptionCommandValidatorTests.cs",
+              "RelativeDocumentMoniker": "Tests\\Validators\\CreateSubscriptionCommandValidatorTests.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Tests\\Validators\\CreateSubscriptionCommandValidatorTests.cs",
+              "RelativeToolTip": "Tests\\Validators\\CreateSubscriptionCommandValidatorTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T17:09:58.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Usings.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Tests\\Usings.cs",
+              "RelativeDocumentMoniker": "Tests\\Usings.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Tests\\Usings.cs",
+              "RelativeToolTip": "Tests\\Usings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T17:10:20.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CancelSubscriptionCommandValidatorTests.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Tests\\Validators\\CancelSubscriptionCommandValidatorTests.cs",
+              "RelativeDocumentMoniker": "Tests\\Validators\\CancelSubscriptionCommandValidatorTests.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Tests\\Validators\\CancelSubscriptionCommandValidatorTests.cs",
+              "RelativeToolTip": "Tests\\Validators\\CancelSubscriptionCommandValidatorTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T17:12:54.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateSubscriptionCommandHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Tests\\Handlers\\CreateSubscriptionCommandHandlerTests.cs",
+              "RelativeDocumentMoniker": "Tests\\Handlers\\CreateSubscriptionCommandHandlerTests.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Tests\\Handlers\\CreateSubscriptionCommandHandlerTests.cs",
+              "RelativeToolTip": "Tests\\Handlers\\CreateSubscriptionCommandHandlerTests.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAwwEsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T17:22:45.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CancelSubscriptionCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Tests\\Handlers\\CancelSubscriptionCommandHandler.cs",
+              "RelativeDocumentMoniker": "Tests\\Handlers\\CancelSubscriptionCommandHandler.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Tests\\Handlers\\CancelSubscriptionCommandHandler.cs",
+              "RelativeToolTip": "Tests\\Handlers\\CancelSubscriptionCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T17:25:41.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Tests.csproj",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Tests\\Tests.csproj",
+              "RelativeDocumentMoniker": "Tests\\Tests.csproj",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Tests\\Tests.csproj",
+              "RelativeToolTip": "Tests\\Tests.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-30T17:04:15.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GetSubscriptionQueryValidator.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Application\\Subscription\\Queries\\Validators\\GetSubscriptionQueryValidator.cs",
+              "RelativeDocumentMoniker": "Application\\Subscription\\Queries\\Validators\\GetSubscriptionQueryValidator.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Application\\Subscription\\Queries\\Validators\\GetSubscriptionQueryValidator.cs",
+              "RelativeToolTip": "Application\\Subscription\\Queries\\Validators\\GetSubscriptionQueryValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T13:37:12.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CancelSubscriptionCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Application\\Subscription\\Commands\\Handlers\\CancelSubscriptionCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Subscription\\Commands\\Handlers\\CancelSubscriptionCommandHandler.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Application\\Subscription\\Commands\\Handlers\\CancelSubscriptionCommandHandler.cs",
+              "RelativeToolTip": "Application\\Subscription\\Commands\\Handlers\\CancelSubscriptionCommandHandler.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAswCYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T12:19:27.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GetSubscriptionQuery.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Application\\Subscription\\Queries\\GetSubscriptionQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Subscription\\Queries\\GetSubscriptionQuery.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Application\\Subscription\\Queries\\GetSubscriptionQuery.cs",
+              "RelativeToolTip": "Application\\Subscription\\Queries\\GetSubscriptionQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T13:35:01.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IBillingService.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Application\\Services\\Interfaces\\IBillingService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\Interfaces\\IBillingService.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Application\\Services\\Interfaces\\IBillingService.cs",
+              "RelativeToolTip": "Application\\Services\\Interfaces\\IBillingService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T14:16:10.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ISubscriptionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Domain\\Ports\\ISubscriptionRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Ports\\ISubscriptionRepository.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Domain\\Ports\\ISubscriptionRepository.cs",
+              "RelativeToolTip": "Domain\\Ports\\ISubscriptionRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T19:42:23.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CancelSubscriptionCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Application\\Subscription\\Commands\\Validators\\CancelSubscriptionCommandValidator.cs",
+              "RelativeDocumentMoniker": "Application\\Subscription\\Commands\\Validators\\CancelSubscriptionCommandValidator.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Application\\Subscription\\Commands\\Validators\\CancelSubscriptionCommandValidator.cs",
+              "RelativeToolTip": "Application\\Subscription\\Commands\\Validators\\CancelSubscriptionCommandValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T12:20:06.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IConnectionProvider.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Infrastructure\\Messaging\\Interfaces\\IConnectionProvider.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Messaging\\Interfaces\\IConnectionProvider.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Infrastructure\\Messaging\\Interfaces\\IConnectionProvider.cs",
+              "RelativeToolTip": "Infrastructure\\Messaging\\Interfaces\\IConnectionProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T14:48:09.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Usings.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Infrastructure\\Usings.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Usings.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Infrastructure\\Usings.cs",
+              "RelativeToolTip": "Infrastructure\\Usings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T02:30:05.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Usings.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Application\\Usings.cs",
+              "RelativeDocumentMoniker": "Application\\Usings.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Application\\Usings.cs",
+              "RelativeToolTip": "Application\\Usings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T01:08:32.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CreateSubscriptionCommand.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Application\\Subscription\\Commands\\CreateSubscriptionCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Subscription\\Commands\\CreateSubscriptionCommand.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Application\\Subscription\\Commands\\CreateSubscriptionCommand.cs",
+              "RelativeToolTip": "Application\\Subscription\\Commands\\CreateSubscriptionCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T18:48:23.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RabbitMQOptions.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Infrastructure\\Messaging\\RabbitMQOptions.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Messaging\\RabbitMQOptions.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Infrastructure\\Messaging\\RabbitMQOptions.cs",
+              "RelativeToolTip": "Infrastructure\\Messaging\\RabbitMQOptions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T14:08:36.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Domain\\Entities\\Base\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Base\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Domain\\Entities\\Base\\BaseEntity.cs",
+              "RelativeToolTip": "Domain\\Entities\\Base\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T01:24:04.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Api\\appsettings.json",
+              "RelativeToolTip": "Api\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-29T01:31:00.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Status.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Domain\\Entities\\Enums\\Status.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Enums\\Status.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Domain\\Entities\\Enums\\Status.cs",
+              "RelativeToolTip": "Domain\\Entities\\Enums\\Status.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T13:16:51.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ISubscriptionService.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Application\\Services\\Interfaces\\ISubscriptionService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\Interfaces\\ISubscriptionService.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Application\\Services\\Interfaces\\ISubscriptionService.cs",
+              "RelativeToolTip": "Application\\Services\\Interfaces\\ISubscriptionService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T16:51:44.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "SubscriptionService.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Application\\Services\\SubscriptionService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\SubscriptionService.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Application\\Services\\SubscriptionService.cs",
+              "RelativeToolTip": "Application\\Services\\SubscriptionService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T16:52:16.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "NativeInjector.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Infrastructure\\CrossCutting\\IoC\\NativeInjector.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\CrossCutting\\IoC\\NativeInjector.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Infrastructure\\CrossCutting\\IoC\\NativeInjector.cs",
+              "RelativeToolTip": "Infrastructure\\CrossCutting\\IoC\\NativeInjector.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T01:40:20.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Api\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Api\\appsettings.Development.json",
+              "RelativeToolTip": "Api\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-29T01:35:40.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DatabaseOptionsSetup.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Api\\OptionsSetup\\DatabaseOptionsSetup.cs",
+              "RelativeDocumentMoniker": "Api\\OptionsSetup\\DatabaseOptionsSetup.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Api\\OptionsSetup\\DatabaseOptionsSetup.cs",
+              "RelativeToolTip": "Api\\OptionsSetup\\DatabaseOptionsSetup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T01:25:06.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SubscriptionController.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Api\\Controllers\\SubscriptionController.cs",
+              "RelativeDocumentMoniker": "Api\\Controllers\\SubscriptionController.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Api\\Controllers\\SubscriptionController.cs",
+              "RelativeToolTip": "Api\\Controllers\\SubscriptionController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T16:59:43.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Usings.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Api\\Usings.cs",
+              "RelativeDocumentMoniker": "Api\\Usings.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Api\\Usings.cs",
+              "RelativeToolTip": "Api\\Usings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T01:30:54.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "JwtOptionsSetup.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Api\\OptionsSetup\\JwtOptionsSetup.cs",
+              "RelativeDocumentMoniker": "Api\\OptionsSetup\\JwtOptionsSetup.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Api\\OptionsSetup\\JwtOptionsSetup.cs",
+              "RelativeToolTip": "Api\\OptionsSetup\\JwtOptionsSetup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T01:25:47.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "GetSubscriptionQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Application\\Subscription\\Queries\\Handlers\\GetSubscriptionQueryHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Subscription\\Queries\\Handlers\\GetSubscriptionQueryHandler.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Application\\Subscription\\Queries\\Handlers\\GetSubscriptionQueryHandler.cs",
+              "RelativeToolTip": "Application\\Subscription\\Queries\\Handlers\\GetSubscriptionQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T13:36:48.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CancelSubscriptionCommand.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Application\\Subscription\\Commands\\CancelSubscriptionCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Subscription\\Commands\\CancelSubscriptionCommand.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Application\\Subscription\\Commands\\CancelSubscriptionCommand.cs",
+              "RelativeToolTip": "Application\\Subscription\\Commands\\CancelSubscriptionCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T01:05:35.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "20240529123917_Subscription-Migration.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Infrastructure\\Migrations\\20240529123917_Subscription-Migration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20240529123917_Subscription-Migration.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Infrastructure\\Migrations\\20240529123917_Subscription-Migration.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20240529123917_Subscription-Migration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T12:39:17.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "20240529123117_Subscription-Migration.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Infrastructure\\Migrations\\20240529123117_Subscription-Migration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20240529123117_Subscription-Migration.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Infrastructure\\Migrations\\20240529123117_Subscription-Migration.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20240529123117_Subscription-Migration.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAwwDEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T12:31:17.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "UserSubscriptionConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Infrastructure\\Data\\EntityConfigurations\\UserSubscriptionConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\EntityConfigurations\\UserSubscriptionConfiguration.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Infrastructure\\Data\\EntityConfigurations\\UserSubscriptionConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\EntityConfigurations\\UserSubscriptionConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T02:24:01.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Registration.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Application\\Registration.cs",
+              "RelativeDocumentMoniker": "Application\\Registration.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Application\\Registration.cs",
+              "RelativeToolTip": "Application\\Registration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T02:35:18.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Api.csproj",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Api\\Api.csproj",
+              "RelativeDocumentMoniker": "Api\\Api.csproj",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Api\\Api.csproj",
+              "RelativeToolTip": "Api\\Api.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-29T01:25:01.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "SwaggerOptionsSetup.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Api\\OptionsSetup\\SwaggerOptionsSetup.cs",
+              "RelativeDocumentMoniker": "Api\\OptionsSetup\\SwaggerOptionsSetup.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Api\\OptionsSetup\\SwaggerOptionsSetup.cs",
+              "RelativeToolTip": "Api\\OptionsSetup\\SwaggerOptionsSetup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T01:27:48.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "JwtBearerOptionsSetup.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Api\\OptionsSetup\\JwtBearerOptionsSetup.cs",
+              "RelativeDocumentMoniker": "Api\\OptionsSetup\\JwtBearerOptionsSetup.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Api\\OptionsSetup\\JwtBearerOptionsSetup.cs",
+              "RelativeToolTip": "Api\\OptionsSetup\\JwtBearerOptionsSetup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T01:25:34.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "DependencyInjectionOptionsSetup.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Api\\OptionsSetup\\DependencyInjectionOptionsSetup.cs",
+              "RelativeDocumentMoniker": "Api\\OptionsSetup\\DependencyInjectionOptionsSetup.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Api\\OptionsSetup\\DependencyInjectionOptionsSetup.cs",
+              "RelativeToolTip": "Api\\OptionsSetup\\DependencyInjectionOptionsSetup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T01:25:16.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "JwtOptions.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Infrastructure\\Authentication\\JwtOptions.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Authentication\\JwtOptions.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Infrastructure\\Authentication\\JwtOptions.cs",
+              "RelativeToolTip": "Infrastructure\\Authentication\\JwtOptions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T01:37:39.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Infrastructure\\Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Infrastructure\\Infrastructure.csproj",
+              "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-27T17:16:38.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Usings.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Domain\\Usings.cs",
+              "RelativeDocumentMoniker": "Domain\\Usings.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Domain\\Usings.cs",
+              "RelativeToolTip": "Domain\\Usings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T01:19:32.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Api.http",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Api\\Api.http",
+              "RelativeDocumentMoniker": "Api\\Api.http",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Api\\Api.http",
+              "RelativeToolTip": "Api\\Api.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-05-27T19:52:26.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Response.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Shared\\Utils\\Response.cs",
+              "RelativeDocumentMoniker": "Shared\\Utils\\Response.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Subscription-API\\Shared\\Utils\\Response.cs",
+              "RelativeToolTip": "Shared\\Utils\\Response.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T18:53:40.99Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

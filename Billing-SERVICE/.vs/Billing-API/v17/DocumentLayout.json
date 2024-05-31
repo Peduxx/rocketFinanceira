@@ -1,0 +1,351 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0AD43D-37A6-4366-8A0A-AA3BDD9FA7A5}|BillingService\\BillingService.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\billing-service\\billingservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A0AD43D-37A6-4366-8A0A-AA3BDD9FA7A5}|BillingService\\BillingService.csproj|solutionrelative:billingservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0AD43D-37A6-4366-8A0A-AA3BDD9FA7A5}|BillingService\\BillingService.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\billing-service\\billingservice\\infrastructure\\data\\repositories\\billingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A0AD43D-37A6-4366-8A0A-AA3BDD9FA7A5}|BillingService\\BillingService.csproj|solutionrelative:billingservice\\infrastructure\\data\\repositories\\billingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0AD43D-37A6-4366-8A0A-AA3BDD9FA7A5}|BillingService\\BillingService.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\billing-service\\billingservice\\entities\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A0AD43D-37A6-4366-8A0A-AA3BDD9FA7A5}|BillingService\\BillingService.csproj|solutionrelative:billingservice\\entities\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0AD43D-37A6-4366-8A0A-AA3BDD9FA7A5}|BillingService\\BillingService.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\billing-service\\billingservice\\services\\billingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A0AD43D-37A6-4366-8A0A-AA3BDD9FA7A5}|BillingService\\BillingService.csproj|solutionrelative:billingservice\\services\\billingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0AD43D-37A6-4366-8A0A-AA3BDD9FA7A5}|BillingService\\BillingService.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\billing-service\\billingservice\\infrastructure\\data\\repositories\\interfaces\\ibillingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A0AD43D-37A6-4366-8A0A-AA3BDD9FA7A5}|BillingService\\BillingService.csproj|solutionrelative:billingservice\\infrastructure\\data\\repositories\\interfaces\\ibillingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0AD43D-37A6-4366-8A0A-AA3BDD9FA7A5}|BillingService\\BillingService.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\billing-service\\billingservice\\infrastructure\\paymentjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A0AD43D-37A6-4366-8A0A-AA3BDD9FA7A5}|BillingService\\BillingService.csproj|solutionrelative:billingservice\\infrastructure\\paymentjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0AD43D-37A6-4366-8A0A-AA3BDD9FA7A5}|BillingService\\BillingService.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\billing-service\\billingservice\\services\\interfaces\\ibillingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A0AD43D-37A6-4366-8A0A-AA3BDD9FA7A5}|BillingService\\BillingService.csproj|solutionrelative:billingservice\\services\\interfaces\\ibillingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0AD43D-37A6-4366-8A0A-AA3BDD9FA7A5}|BillingService\\BillingService.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\billing-service\\billingservice\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A0AD43D-37A6-4366-8A0A-AA3BDD9FA7A5}|BillingService\\BillingService.csproj|solutionrelative:billingservice\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0AD43D-37A6-4366-8A0A-AA3BDD9FA7A5}|BillingService\\BillingService.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\billing-service\\billingservice\\jobconfig\\jobfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A0AD43D-37A6-4366-8A0A-AA3BDD9FA7A5}|BillingService\\BillingService.csproj|solutionrelative:billingservice\\jobconfig\\jobfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0AD43D-37A6-4366-8A0A-AA3BDD9FA7A5}|BillingService\\BillingService.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\billing-service\\billingservice\\infrastructure\\email\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A0AD43D-37A6-4366-8A0A-AA3BDD9FA7A5}|BillingService\\BillingService.csproj|solutionrelative:billingservice\\infrastructure\\email\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0AD43D-37A6-4366-8A0A-AA3BDD9FA7A5}|BillingService\\BillingService.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\billing-service\\billingservice\\messaging\\rabbitmq\\connectionprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A0AD43D-37A6-4366-8A0A-AA3BDD9FA7A5}|BillingService\\BillingService.csproj|solutionrelative:billingservice\\messaging\\rabbitmq\\connectionprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0AD43D-37A6-4366-8A0A-AA3BDD9FA7A5}|BillingService\\BillingService.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\billing-service\\billingservice\\infrastructure\\email\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A0AD43D-37A6-4366-8A0A-AA3BDD9FA7A5}|BillingService\\BillingService.csproj|solutionrelative:billingservice\\infrastructure\\email\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0AD43D-37A6-4366-8A0A-AA3BDD9FA7A5}|BillingService\\BillingService.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\billing-service\\billingservice\\messaging\\rabbitmq\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A0AD43D-37A6-4366-8A0A-AA3BDD9FA7A5}|BillingService\\BillingService.csproj|solutionrelative:billingservice\\messaging\\rabbitmq\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0AD43D-37A6-4366-8A0A-AA3BDD9FA7A5}|BillingService\\BillingService.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\billing-service\\billingservice\\messaging\\rabbitmq\\consumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A0AD43D-37A6-4366-8A0A-AA3BDD9FA7A5}|BillingService\\BillingService.csproj|solutionrelative:billingservice\\messaging\\rabbitmq\\consumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0AD43D-37A6-4366-8A0A-AA3BDD9FA7A5}|BillingService\\BillingService.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\billing-service\\billingservice\\messaging\\rabbitmq\\interfaces\\ipublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A0AD43D-37A6-4366-8A0A-AA3BDD9FA7A5}|BillingService\\BillingService.csproj|solutionrelative:billingservice\\messaging\\rabbitmq\\interfaces\\ipublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0AD43D-37A6-4366-8A0A-AA3BDD9FA7A5}|BillingService\\BillingService.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\billing-service\\billingservice\\messaging\\rabbitmq\\rabbitmqoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A0AD43D-37A6-4366-8A0A-AA3BDD9FA7A5}|BillingService\\BillingService.csproj|solutionrelative:billingservice\\messaging\\rabbitmq\\rabbitmqoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0AD43D-37A6-4366-8A0A-AA3BDD9FA7A5}|BillingService\\BillingService.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\billing-service\\billingservice\\messaging\\rabbitmq\\interfaces\\iconnectionprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A0AD43D-37A6-4366-8A0A-AA3BDD9FA7A5}|BillingService\\BillingService.csproj|solutionrelative:billingservice\\messaging\\rabbitmq\\interfaces\\iconnectionprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0AD43D-37A6-4366-8A0A-AA3BDD9FA7A5}|BillingService\\BillingService.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\billing-service\\billingservice\\billingservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0A0AD43D-37A6-4366-8A0A-AA3BDD9FA7A5}|BillingService\\BillingService.csproj|solutionrelative:billingservice\\billingservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0AD43D-37A6-4366-8A0A-AA3BDD9FA7A5}|BillingService\\BillingService.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\billing-service\\billingservice\\infrastructure\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A0AD43D-37A6-4366-8A0A-AA3BDD9FA7A5}|BillingService\\BillingService.csproj|solutionrelative:billingservice\\infrastructure\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0AD43D-37A6-4366-8A0A-AA3BDD9FA7A5}|BillingService\\BillingService.csproj|c:\\users\\claud\\desktop\\rocketfinanceira\\billing-service\\billingservice\\entities\\enums\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A0AD43D-37A6-4366-8A0A-AA3BDD9FA7A5}|BillingService\\BillingService.csproj|solutionrelative:billingservice\\entities\\enums\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ConnectionProvider.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\BillingService\\Messaging\\RabbitMQ\\ConnectionProvider.cs",
+              "RelativeDocumentMoniker": "BillingService\\Messaging\\RabbitMQ\\ConnectionProvider.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\BillingService\\Messaging\\RabbitMQ\\ConnectionProvider.cs",
+              "RelativeToolTip": "BillingService\\Messaging\\RabbitMQ\\ConnectionProvider.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAiwCAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T19:32:23.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\BillingService\\Infrastructure\\Email\\IEmailService.cs",
+              "RelativeDocumentMoniker": "BillingService\\Infrastructure\\Email\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\BillingService\\Infrastructure\\Email\\IEmailService.cs",
+              "RelativeToolTip": "BillingService\\Infrastructure\\Email\\IEmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T18:35:06.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IBillingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\BillingService\\Infrastructure\\Data\\Repositories\\Interfaces\\IBillingRepository.cs",
+              "RelativeDocumentMoniker": "BillingService\\Infrastructure\\Data\\Repositories\\Interfaces\\IBillingRepository.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\BillingService\\Infrastructure\\Data\\Repositories\\Interfaces\\IBillingRepository.cs",
+              "RelativeToolTip": "BillingService\\Infrastructure\\Data\\Repositories\\Interfaces\\IBillingRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T18:14:34.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BillingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\BillingService\\Infrastructure\\Data\\Repositories\\BillingRepository.cs",
+              "RelativeDocumentMoniker": "BillingService\\Infrastructure\\Data\\Repositories\\BillingRepository.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\BillingService\\Infrastructure\\Data\\Repositories\\BillingRepository.cs",
+              "RelativeToolTip": "BillingService\\Infrastructure\\Data\\Repositories\\BillingRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T18:14:21.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\BillingService\\Program.cs",
+              "RelativeDocumentMoniker": "BillingService\\Program.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\BillingService\\Program.cs",
+              "RelativeToolTip": "BillingService\\Program.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAwwF4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T17:22:02.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "JobFactory.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\BillingService\\JobConfig\\JobFactory.cs",
+              "RelativeDocumentMoniker": "BillingService\\JobConfig\\JobFactory.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\BillingService\\JobConfig\\JobFactory.cs",
+              "RelativeToolTip": "BillingService\\JobConfig\\JobFactory.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAiwB4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T03:57:42.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\BillingService\\Services\\NotificationService.cs",
+              "RelativeDocumentMoniker": "BillingService\\Services\\NotificationService.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\BillingService\\Services\\NotificationService.cs",
+              "RelativeToolTip": "BillingService\\Services\\NotificationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T03:25:06.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BillingService.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\BillingService\\Services\\BillingService.cs",
+              "RelativeDocumentMoniker": "BillingService\\Services\\BillingService.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\BillingService\\Services\\BillingService.cs",
+              "RelativeToolTip": "BillingService\\Services\\BillingService.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAgwDMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T17:37:01.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PaymentJob.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\BillingService\\Infrastructure\\PaymentJob.cs",
+              "RelativeDocumentMoniker": "BillingService\\Infrastructure\\PaymentJob.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\BillingService\\Infrastructure\\PaymentJob.cs",
+              "RelativeToolTip": "BillingService\\Infrastructure\\PaymentJob.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T17:55:07.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Subscription.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\BillingService\\Entities\\Subscription.cs",
+              "RelativeDocumentMoniker": "BillingService\\Entities\\Subscription.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\BillingService\\Entities\\Subscription.cs",
+              "RelativeToolTip": "BillingService\\Entities\\Subscription.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T18:26:31.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IBillingService.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\BillingService\\Services\\Interfaces\\IBillingService.cs",
+              "RelativeDocumentMoniker": "BillingService\\Services\\Interfaces\\IBillingService.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\BillingService\\Services\\Interfaces\\IBillingService.cs",
+              "RelativeToolTip": "BillingService\\Services\\Interfaces\\IBillingService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T17:37:21.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\BillingService\\Infrastructure\\Email\\EmailService.cs",
+              "RelativeDocumentMoniker": "BillingService\\Infrastructure\\Email\\EmailService.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\BillingService\\Infrastructure\\Email\\EmailService.cs",
+              "RelativeToolTip": "BillingService\\Infrastructure\\Email\\EmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T18:33:03.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Consumer.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\BillingService\\Messaging\\RabbitMQ\\Consumer.cs",
+              "RelativeDocumentMoniker": "BillingService\\Messaging\\RabbitMQ\\Consumer.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\BillingService\\Messaging\\RabbitMQ\\Consumer.cs",
+              "RelativeToolTip": "BillingService\\Messaging\\RabbitMQ\\Consumer.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAkwDEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T17:27:57.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IPublisher.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\BillingService\\Messaging\\RabbitMQ\\Interfaces\\IPublisher.cs",
+              "RelativeDocumentMoniker": "BillingService\\Messaging\\RabbitMQ\\Interfaces\\IPublisher.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\BillingService\\Messaging\\RabbitMQ\\Interfaces\\IPublisher.cs",
+              "RelativeToolTip": "BillingService\\Messaging\\RabbitMQ\\Interfaces\\IPublisher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T20:12:04.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IConnectionProvider.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\BillingService\\Messaging\\RabbitMQ\\Interfaces\\IConnectionProvider.cs",
+              "RelativeDocumentMoniker": "BillingService\\Messaging\\RabbitMQ\\Interfaces\\IConnectionProvider.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\BillingService\\Messaging\\RabbitMQ\\Interfaces\\IConnectionProvider.cs",
+              "RelativeToolTip": "BillingService\\Messaging\\RabbitMQ\\Interfaces\\IConnectionProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T19:32:21.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Publisher.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\BillingService\\Messaging\\RabbitMQ\\Publisher.cs",
+              "RelativeDocumentMoniker": "BillingService\\Messaging\\RabbitMQ\\Publisher.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\BillingService\\Messaging\\RabbitMQ\\Publisher.cs",
+              "RelativeToolTip": "BillingService\\Messaging\\RabbitMQ\\Publisher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T22:45:19.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RabbitMQOptions.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\BillingService\\Messaging\\RabbitMQ\\RabbitMQOptions.cs",
+              "RelativeDocumentMoniker": "BillingService\\Messaging\\RabbitMQ\\RabbitMQOptions.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\BillingService\\Messaging\\RabbitMQ\\RabbitMQOptions.cs",
+              "RelativeToolTip": "BillingService\\Messaging\\RabbitMQ\\RabbitMQOptions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T19:33:33.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Status.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\BillingService\\Entities\\Enums\\Status.cs",
+              "RelativeDocumentMoniker": "BillingService\\Entities\\Enums\\Status.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\BillingService\\Entities\\Enums\\Status.cs",
+              "RelativeToolTip": "BillingService\\Entities\\Enums\\Status.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T18:27:15.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\BillingService\\Infrastructure\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "BillingService\\Infrastructure\\Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\BillingService\\Infrastructure\\Data\\DataContext.cs",
+              "RelativeToolTip": "BillingService\\Infrastructure\\Data\\DataContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T18:07:29.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BillingService.csproj",
+              "DocumentMoniker": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\BillingService\\BillingService.csproj",
+              "RelativeDocumentMoniker": "BillingService\\BillingService.csproj",
+              "ToolTip": "C:\\Users\\claud\\Desktop\\RocketFinanceira\\Billing-SERVICE\\BillingService\\BillingService.csproj",
+              "RelativeToolTip": "BillingService\\BillingService.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-30T18:10:15.687Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
