@@ -60,3 +60,7 @@ dotnet run
 
 Com isso você poderá executar os testes manuais pelo Swagger.
 
+## Email Service
+
+ - No email service de BillingService, lembre-se de incluir seus dados de email para que o envio funcione corretamente.
+
