@@ -38,7 +38,7 @@ Antes de executar a aplicação, certifique-se de ter as seguintes dependências
 
 ### Iniciando os Serviços Docker
 
-Para iniciar os serviços de banco de dados e RabbitMQ usando Docker, navegue até o diretório onde está o arquivo `docker-compose.yml` e execute o seguinte comando:
+Para iniciar os serviços de banco de dados e RabbitMQ usando Docker, navegue até o diretório onde está o arquivo `docker-compose.yaml` e execute o seguinte comando:
 
 docker-compose up
 
