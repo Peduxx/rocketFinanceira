@@ -33,8 +33,8 @@ O Serviço de Cobrança é responsável por receber notificações da fila "bill
 
 Antes de executar a aplicação, certifique-se de ter as seguintes dependências instaladas e configuradas:
 
-- [SDK .NET](https://dotnet.microsoft.com/download) (versão X.X.X ou superior)
-- [Docker](https://www.docker.com/) (para executar instâncias do SQL Server e RabbitMQ)
+- [SDK .NET](https://dotnet.microsoft.com/download)
+- [Docker](https://www.docker.com/) 
 
 ### Iniciando os Serviços Docker
 
